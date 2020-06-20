@@ -2,38 +2,200 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Кино</title>
 </head>
 <body>
 	<header class="header">
-		<div class="header-info">
-			<div class="header-text">
-				<div class="header-logo">
-					<h1 class="header-title">
-						Жаркое лето
-					</h1>
-					<div class="title-img">
-						<span>в</span> <img src="img/movie.png" alt="movie">
+		<div class="header-container">
+			<div class="header-info">
+				<div class="header-text">
+					<div class="header-logo">
+						<h1 class="header-title">
+							Жаркое лето
+						</h1>
+						<div class="title-img">
+							<span>в</span> <img src="img/movie.png" alt="movie">
+						</div>
+					</div>
+					<span class="header-subtitle">
+						Собираясь в КИНО, собирайся на море!
+					</span>
+					<div class="header-btn-check">
+						<button class="header-info__btn">Собирайся на море!</button>
+						<div class="input-checkbox">
+							<label>
+								<input class="input-checkbox__checks" type="checkbox" checked>
+								<span class="input-checkbox__box"></span>
+								<span class="input-checkbox__text">Принять условия <a href="#">акции</a></span>
+							</label>
+						</div>
 					</div>
 				</div>
-				<span class="header-subtitle">
-					Собираясь в КИНО, собирайся на море!
-				</span>
-				<div class="header-btn-check">
-					<button class="header-info__btn">Собирайся на море!</button>
-					<div class="checkbox">
-						<input type="checkbox" id="check1" value="Принять условия акции">
-						<label for="check1">Принять условия <a href="#">акции</a></label>
+				<div class="header-img">
+					<img src="img/icecream.png" alt="icecream">
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="info-section">
+
+		<div class="popcorns">
+			<img src="img/popcorn.png" alt="popcorn" class="popcorn">
+		</div>
+		<div class="container">
+			<div class="info">
+				<div class="info-title">
+					<h2 class="info-movie">Все любят ходить в </h2>
+					<img src="img/movie2.png" alt="movie2">
+				</div>
+				<p class="info-text">
+					Мы знаем, что этим летом ты будешь ходить в КИНО ещё чаще! В два, три, во много раз чаще, потому что этим летом в кино тебя ждут не просто новые фильмы, а тысячи жарких, знойных призов и даже путешествие на море. Собирайся в КИНО и не забудь взять солнцезащитный крем – возможно, именно ты отправишься из КИНО на море этим жарким кинолетом!
+				</p>
+				<div class="info-btn-check">
+					<button class="info__btn">Собирайся на море!</button>
+					<div class="input-checkbox">
+						<label>
+							<input class="input-checkbox__checks" type="checkbox" checked>
+							<span class="input-checkbox__box"></span>
+							<span class="input-checkbox__text">Принять условия <a href="#">акции</a></span>
+						</label>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="header-img">
-			<img src="img/icecream.png" alt="icecream">
+		<img src="img/step2.png" alt="step" class="step">
+	</section>
+	<section class="card-section">
+		
+		<div class="container">
+			<h2 class="card-section__title">
+					Шесть шагов до моря
+			</h2>
+			<div class="slider-container"  data-mobile="false">
+				<div class="swiper-wrapper wrapp">
+					<div class="card">
+						<div class="card-item">
+							<img src="img/1.png" alt="icon">
+							<div class="card-info">
+								<h3 class="card-title">
+									Стань участником
+								</h3>
+								<p class="card-text">
+									программы лояльности БОНУС<br> и прими условия акции
+								</p>
+							</div>
+						</div>
+						<div class="card-item">
+							<img src="img/2.png" alt="icon">
+							<div class="card-info">
+								<h3 class="card-title">
+									Покупай 
+								</h3>
+								<p class="card-text">
+									билеты в КИНО с применением<br> карты БОНУС
+								</p>
+							</div>
+						</div>
+						<div class="card-item">
+							<img src="img/3.png" alt="icon">
+							<div class="card-info">
+								<h3 class="card-title">
+									Получай 
+								</h3>
+								<p class="card-text">
+									призы за походы в КИНО
+								</p>
+							</div>
+						</div>
+						<div class="card-item">
+							<img src="img/4.png" alt="icon">
+							<div class="card-info">
+								<h3 class="card-title">
+									Смотри 
+								</h3>
+								<p class="card-text">
+									кино еще чаще и получай<br> призы от партнеров
+								</p>
+							</div>
+						</div>
+						<div class="card-item">
+							<img src="img/5.png" alt="icon">
+							<div class="card-info">
+								<h3 class="card-title">
+									Выкладывай 
+								</h3>
+								<p class="card-text">
+									креативные фото из КИНО в соц. сетях с <span>#жаркоекинолето</span>
+								</p>
+							</div>
+						</div>
+						<div class="card-item">
+							<img src="img/6.png" alt="icon">
+								<h3 class="card-title">
+									Собирайся на море 
+								</h3>
+								<p class="card-text">
+									Сходи в КИНО не менее 6 раз за лето и получи возможность выиграть одно из путешествий от Club Med
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</header>
+	</section>
+	<section class="slider-section">
+		<div class="container">
+			<h3 class="slider-section__title">Партнеры</h3>
+			
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+						<div class="swiper-slide card-img">
+							<img src="img/slider-img.png" alt="">
+						</div>
+					</div>	
+				</div>
+			
+			<div class="slider-bottom">
+				<div class="slider-buttons">
+						<button class="swiper-button-prev"></button>
+						<button class="swiper-button-next"></button>
+					</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="footer-btn">
+			<button class="footer-btn__promotion">
+				Правила акции
+			</button> 	
+		</div>
+	</footer>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/slider.js"></script>
 </body>
 </html>
