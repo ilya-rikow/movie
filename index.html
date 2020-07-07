@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
+	<!-- <link rel="stylesheet" href="css/reset.css"> -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/main.css">
@@ -18,7 +19,10 @@
 							Жаркое лето
 						</h1>
 						<div class="title-img">
-							<span>в</span> <img src="img/movie.png" alt="movie">
+							<p>в</p> 
+							<div class="title-img__logo">
+								<img src="img/movie.png" alt="movie">
+							</div>
 						</div>
 					</div>
 					<span class="header-subtitle">
@@ -49,8 +53,10 @@
 		<div class="container">
 			<div class="info">
 				<div class="info-title">
-					<h2 class="info-movie">Все любят ходить в </h2>
-					<img src="img/movie2.png" alt="movie2">
+					<h2 class="info-movie">Все любят ходить в <div class="info-img">
+						<img src="img/movie2.png" alt="movie2">
+					</div></h2>
+					 
 				</div>
 				<p class="info-text">
 					Мы знаем, что этим летом ты будешь ходить в КИНО ещё чаще! В два, три, во много раз чаще, потому что этим летом в кино тебя ждут не просто новые фильмы, а тысячи жарких, знойных призов и даже путешествие на море. Собирайся в КИНО и не забудь взять солнцезащитный крем – возможно, именно ты отправишься из КИНО на море этим жарким кинолетом!
@@ -67,7 +73,9 @@
 				</div>
 			</div>
 		</div>
-		<img src="img/step2.png" alt="step" class="step">
+		<div class="steps">
+			<img src="img/step2.png" alt="step" class="step">
+		</div>
 	</section>
 	<section class="card-section">
 		
@@ -76,8 +84,8 @@
 					Шесть шагов до моря
 			</h2>
 			<div class="slider-container"  data-mobile="false">
-				<div class="swiper-wrapper wrapp">
-					<div class="card">
+				<div class="swiper-wrapper card">
+					
 						<div class="card-item">
 							<img src="img/1.png" alt="icon">
 							<div class="card-info">
@@ -145,7 +153,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		
 	</section>
 	<section class="slider-section">
 		<div class="container">
